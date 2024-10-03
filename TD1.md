@@ -34,6 +34,9 @@ Vérifiez que le projet compile et s'exécute dans l'IDE;
 Validez les changements (cf. [Enregistrer des modifications dans le dépôt](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Enregistrer-des-modifications-dans-le-d%C3%A9p%C3%B4t));
     ```bash
     # Commandes pour valider les changements
+    $git add Fraction.java
+    $git commit -m "test"
+    $git push
     ```
 1. Ajoutez la méthode `toString` à la classe `Fraction` (cf. [`Object.toString`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html#toString())) qui retournera la chaîne `"Je suis une fraction."` et modifiez la classe `Main` en conséquence;
 Validez les changements;
